@@ -10,22 +10,26 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
+
 <div class="container">
 	<div class="page-header">
 		<div class="row">
 			<div class="col-md-8">
-			<h1>Form-name-here</h1>
+				<h1>Form-name-here</h1>
 			</div>
-			<div class="col-md-4">
-				<div class="text-right">
-					DOC NO. FMT/HIC/09 <br>
-					REV. No. 0.1 <br>
-					WEF 10-10-2015
-				</div>
+			<div class="col-md-4 text-right">
+				DOC NO. FMT/HIC/09 <br>
+				REV. No. 0.1 <br>
+				WEF 10-10-2015
 			</div>
 		</div>
 	</div>
 
+	<form name="form-name-here">
+
+		----code here----
+
+	</form>
 
 </div>
 
