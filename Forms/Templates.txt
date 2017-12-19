@@ -1,0 +1,102 @@
+#############################################
+#---Basic form structure including header---#
+#############################################
+
+<html>
+<head>
+	<title>
+		form-name-here
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+			<div class="col-md-8">
+			<h1>Form-name-here</h1>
+			</div>
+			<div class="col-md-4">
+				<div class="text-right">
+					DOC NO. FMT/HIC/09 <br>
+					REV. No. 0.1 <br>
+					WEF 10-10-2015
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>
+
+
+#############################################
+#--------Row with 4 equal columns-----------#
+#############################################
+
+<div class="row form-group">
+	<div class="col-md-6">
+		<div class="col-md-6">
+      -----col01-----
+		</div>
+		<div class="col-md-6">
+      -----col02-----
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="col-md-6">
+      -----col03-----
+		</div>
+		<div class="col-md-6">
+      -----col04-----
+		</div>
+	</div>
+</div>
+
+#############################################
+#--------Row with 2 equal columns-----------#
+#############################################
+
+<div class="row form-group">
+	<div class="col-md-6">
+    -----col01-----
+	</div>
+	<div class="col-md-6">
+    -----col02-----
+	</div>
+</div>
+
+#############################################
+#--------Row with 6 equal columns-----------#
+#############################################
+
+<div class="row form-group">
+	<div class="col-md-4">
+		<div class="col-md-6">
+      -----col01-----
+		</div>
+		<div class="col-md-6">
+      -----col02-----
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="col-md-6">
+      -----col03-----
+		</div>
+		<div class="col-md-6">
+      -----col04-----
+		</div>
+	</div>
+  <div class="col-md-4">
+		<div class="col-md-6">
+      -----col05-----
+		</div>
+		<div class="col-md-6">
+      -----col06-----
+		</div>
+	</div>
+</div>
