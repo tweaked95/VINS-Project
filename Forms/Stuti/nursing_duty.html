@@ -1,0 +1,335 @@
+<html>
+<head>
+	<title>
+		Nursing Duty Over
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<style> div.double {border-style: double;} </style>
+</head>
+
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+			<div class="col-md-6">
+			<h1>Nursing Duty Over</h1>
+			</div>	
+			<div>
+				<div class="text-right">
+					DOC NO. FMT/HIC/09 <br>
+					REV. No. 0.1 <br>
+					WEF 10-10-2015
+				</div>	
+			</div>
+		</div>
+	</div>
+		<div class ="row">
+			<div class="col-md-2 text-right">
+				<textarea class="text-left" id="Addressograph" rows="3" placeholder="Addressograph Here"></textarea>
+			</div>
+			<div class="col-md-2 text-right">
+				<textarea class="text-left" id="specific_instruction" rows="3" placeholder="Specific Instructions If Any"></textarea>
+			</div>
+		</div>
+	
+	
+	
+	<form id="nursingdutyover">
+		
+		<div class="row">
+		  <table class="table table-bordered">
+		    <thead>
+			  <tr>
+				<th></th>
+				<th>Morning</th>
+				<th>Evening</th>
+				<th>Night</th>
+				
+			 </tr>
+			 </thead>
+			<tbody>
+			  
+			  <tr>
+				<td>Unit Nurse Name</td>
+				<div class="form-group">
+				   
+				<td><input type = "text"  id = "M_nurse_name"></td>
+				<td><input type = "text"  id = "E_nurse_name"/></td>
+				<td><input type = "text"  id = "N_nurse_name"/></td>
+				</div>
+			  </tr>
+			
+			  <tr>
+			    
+				<td>In Charge on Duty</td>
+				<div class="form-group">
+				  <td><input type = "text"  id = "M_nurse_name"></td>
+				<td><input type = "text"  id = "E_nurse_name"/></td>
+				<td><input type = "text"  id = "N_nurse_name"/></td>
+				</div>
+			  </tr>
+			  
+			  
+			 <div class = "double">
+			  <tr>
+				
+				<td>1. Eye Care </td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_eyecare" value="yes"></td>
+				<td><input type="checkbox" id="E_eyecare" value="yes"></td>
+				<td><input type="checkbox" id="N_eyecare" value="yes"></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+			  
+				<td > 2.Mouth Care</td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_mouthcare" value="yes"></td>
+				<td><input type="checkbox" id="E_mouthcare" value="yes"></td>
+				<td><input type="checkbox" id="N_mouthcare" value="yes"></td>
+				</div>
+			  </tr>
+			 
+			  <tr>
+			 
+				<td>3. Skin Care/ Back Care </td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_skincare" value="yes"></td>
+				<td><input type="checkbox" id="E_skincare" value="yes"></td>
+				<td><input type="checkbox" id="N_skincare" value="yes"></td>
+				</div>
+
+			  </tr>
+			  
+			  <tr>
+			    
+				<td>4. Bedding</td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_bedding" value="yes"></td>
+				<td><input type="checkbox" id="E_bedding" value="yes"></td>
+				<td><input type="checkbox" id="N_bedding" value="yes"></td>
+				</div>
+
+			  </tr>
+			  
+			   <tr>
+			    
+				<td>5. Catheter Care</td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_cathetercare" value="yes"></td>
+				<td><input type="checkbox" id="E_cathetercare" value="yes"></td>
+				<td><input type="checkbox" id="N_cathetercare" value="yes"></td>
+				</div>
+
+			  </tr>
+			  
+			   <tr>
+			    
+				<td>6. Physiotherapy</td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_physiotherapy" value="yes"></td>
+				<td><input type="checkbox" id="E_physiotherapy" value="yes"></td>
+				<td><input type="checkbox" id="N_physiotherapy" value="yes"></td>
+				</div>
+
+			  </tr>
+			  
+			   <tr>
+			    
+				<td>7. Sponge Bath</td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_spongebath" value="yes"></td>
+				<td><input type="checkbox" id="E_spongebath" value="yes"></td>
+				<td><input type="checkbox" id="N_spongebath" value="yes"></td>
+				</div>
+				
+			  
+			  </tr>
+			  
+			  <tr>
+			    
+				<td>8.Any Other </td>
+				<div class="form-group">
+				 <td><input type="checkbox" id="M_other" value="yes"></td>
+				<td><input type="checkbox" id="E_other" value="yes"></td>
+				<td><input type="checkbox" id="N_other" value="yes"></td>
+				
+				</div>
+				
+			  </tr>
+			 </div>   
+				<td>Investigations</td>
+				<div class="form-group">
+				  <td><input type = "text"  id = "M_investigations"></td>
+				<td><input type = "text"  id = "E_investigations"/></td>
+				<td><input type = "text"  id = "N_investigations"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				<td>Pending Reports</td>
+				<div class="form-group">
+				  <td><input type = "text"  id = "M_pendingreport"></td>
+				<td><input type = "text"  id = "E_pendingreport"/></td>
+				<td><input type = "text"  id = "N_pendingreport"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				<td>Replacement Of Drug.</td>
+				<div class="form-group">
+				  <td><input type = "text"  id = "M_replacementdrug"></t>
+				<td><input type = "text"  id = "E_replacementdrug"/></td>
+				<td><input type = "text"  id = "N_replacementdrug"/></td>
+				</div>
+			  </tr>
+			  
+			  <div class="row">
+		  <table class="table table-bordered">
+		    <thead>
+			  <tr>
+				<th>Balance Drugs in Stock</th>
+				<th>Time</th>
+				<th>Balance</th>
+				<th>Time</th>
+				<th>Balance</th>
+				<th>Time</th>
+				<th>Balance</th>
+			<tbody>
+		 
+			  <tr>
+				
+				<div class="form-group">
+				<td><input type = "text"></td>  
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  
+			  
+			  <tr>
+				
+				<div class="form-group">
+				 <td><input type = "text"></td>  
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				
+				<div class="form-group">
+				 <td><input type = "text"></td>  
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				
+				<div class="form-group">
+				 <td><input type = "text"></td>  
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				
+				<div class="form-group">
+				<td><input type = "text"></td>   
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				
+				<div class="form-group">
+				<td><input type = "text"></td>   
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				
+				<div class="form-group">
+				<td><input type = "text"></td>   
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			  
+			  <tr>
+				
+				<div class="form-group">
+				<td><input type = "text"></td>   
+				<td><input type = "text"  id = "M_time"></td>
+				<td><input type = "text"  id = "M_balance"/></td>
+				<td><input type = "text"  id = "E_time"></td>
+				<td><input type = "text"  id = "E_balance"/></td>
+				<td><input type = "text"  id = "N_time"></td>
+				<td><input type = "text"  id = "N_balance"/></td>
+				</div>
+			  </tr>
+			 </tr>
+			 
+			 </thead>
+			  </tbody>
+		  </table>
+			
+			<div class="row">
+		  <table class="table table-bordered">
+			 <tr>
+				<td> Events If Any: </td>
+				<div class="form-group">
+				<td> <input type = "text" id = "events" rows = "3"></td>
+				<td> <input type = "text" id = "events" rows = "3"></td>
+				<td> <input type = "text" id = "events" rows = "3"></td>
+				
+			</tr>
+			
+			<tr>
+			<div class = "form-group">
+			<td> Name of Nurse<br> Date/ Time</td>
+			<div class="form-group">
+				<td> <input type = "text" id = "nurse_name" rows = "3"></td>
+				<td> <input type = "text" id = "nurse_name" rows = "3"></td>
+				<td> <input type = "text" id = "nurse_name" rows = "3"></td>
+			 </thead>
+			  </tbody>
+		  </table>
+		</div>
+	
+	</form>
+</div>
