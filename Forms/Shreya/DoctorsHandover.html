@@ -1,0 +1,187 @@
+<html>
+<head>
+	<title>
+		doctor's handover
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+			<div class="col-md-6">
+			<h1>DOCTOR'S HANDOVER</h1>
+			</div>
+			<div class="col-md-6">
+				<div class="text-right">
+					DOC NO. FMT/HIC/09 <br>
+					REV. No. 0.1 <br>
+					WEF 10-10-2015
+				</div>
+			</div>
+		</div>
+	</div>
+	<form id="doctor's_handover">
+		<div class="row">
+		  <div class="col-md-10">
+			<div class="form-group">
+			 <label>diagnosis : :</label>
+	 <input type="text" class="form-control" id="diagnosis" rows="3"  placeholder="" >
+			</div>
+
+
+		  <div class="col-md-2 text-right">
+			<input type="text" class="text-right" id="Addressograph" rows="3" placeholder="Addressograph Here">
+		</div>
+
+
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="row">
+		  <table class="table table-bordered">
+		    <thead>
+			  <tr>
+				<th rowspan="2">Sr. No.</th>
+				<th rowspan="2">Particulars</th>
+				<th rowspan="2"> Day</th>
+				<th rowspan="2"> Night</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+			    <td>1</td>
+				<td>patient is surgical/conservative</td>
+				<td> <input type="text" id="01_1"></td>
+				<td> <input type="text" id="01_2" > </td>
+				</div>
+			  </tr>
+			  <tr>
+			    <td> 2</td>
+				<td> if patient is surgical then tentative date of surgery</td>
+				<td> <input type="date" id="02_1"></td>
+				<td> <input type="date" id="02_2" ></td>
+				</div>
+			  </tr>
+
+			   <tr>
+			    <td> 3</td>
+				<td> please mention date of surgery performed</td>
+				<td> <input type="date" id="03_1"></td>
+				<td> <input type="date" id="03_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 4</td>
+				<td> physician's reference</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 5</td>
+				<td> any other specialist's reference</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 6</td>
+				<td> pathological investigation to be done</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 7</td>
+				<td> reports of pathological investigation to be done</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 8</td>
+				<td> radiological investigation to be done</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 9</td>
+				<td> reports of radiological investigation to be collected</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+
+			   <tr>
+			    <td> 10</td>
+				<td> any other investigation to be done</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 11</td>
+				<td> reports of said investigation awaited</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 12</td>
+				<td> echo</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 13</td>
+				<td> physiotherapy</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 14</td>
+				<td> specific instruction/ change in treatment</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 15</td>
+				<td> verifiesd by physician's assistant</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+
+			   <tr>
+			    <td> 16</td>
+				<td> if patient is surgical then tentative date of surgery</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+			   <tr>
+			    <td> 17
+				</td>
+				<td> if patient is surgical then tentative date of surgery</td>
+				<td> <input type="text" id="02_1"></td>
+				<td> <input type="text" id="02_2" ></td>
+				</div>
+			  </tr>
+
+
+
+
+			</tbody>
+		  </table>
+		</div>
+		<div>
+			<button class="btn btn-success btn-bg" type="submit" form="planofcare" value="submit">Submit</button>
+		</div>
+	</form>
+</div>

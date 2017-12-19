@@ -1,0 +1,182 @@
+<html>
+<head>
+	<title>
+		Doctors Daily Notes
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+			<div class="col-md-6">
+			<h2>DOCTOR'S DAILY NOTES</h2>
+			</div>
+			<div class="col-md-6">
+				<div class="text-right">
+					DOC NO. FMT/HIC/09 </br>
+					REV. No. 0.1 </br>
+					WEF 10-10-2015
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-md-4">
+
+					<label> Patient's name: </label>
+					<input class="form-control" id="name" type="text" name="name" >
+
+			</div>
+			<div class="col-md-4">
+
+						<label> IPD no: </label>
+						<input class="form-control" id="ipd_no" type="text" name="ipd_no" >
+
+				</div>
+				<div class="col-md-4">
+
+						<label> Sex: </label>
+					<select class="form-control" name="sex">
+						<option>NA</option>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+
+			</div>
+		</div>
+
+	<div class="row">
+		<div class="col-md-4">
+
+				<label> Attending consultant: </label>
+				<input type="text" class="form-control" id="attending_consultant" name="attending_consultant">                                                                                                                                                </div>                                                                                                                                                 <div class="col-md-4">
+
+				<label> Age : </label>
+				<textarea class="form-control" id="age" rows="1"  placeholder="" name="age" ></textarea>                                                                                                                                                </div>  <div class="col-md-4">
+
+				<label> Date: </label>
+				<textarea class="form-control" id="date" rows="1"  placeholder="" name="date" ></textarea>                                                                                                                                                </div></div>
+				<div class="row"><hr><label> 7 AM S/B- </label><hr>
+					<div class="col-md-6">
+
+					<label> c/o-</label>
+					<input type="text" class="form-control" name="c/0">
+					<label> O/E-   PULSE:</label>
+					<input type="text" class="form-control" name="7_pulse">
+
+					<label>   BP:</label>
+					<input type="text" class="form-control" name="7_bp">
+					<label> TEMP:</label>
+					<input type="text" class="form-control" name="7_temp">
+					<label> RESP/SPO2:</label>
+					<input type="text" class="form-control" name="7_resp/spo2">
+					<label> PAIN:</label>
+					<input type="radio" name="7_pain1">1
+						<input type="radio"  name="7_pain2">2
+						<input type="radio" name="7_pain3">3
+						<input type="radio" name="7_pain4">4
+						<input type="radio" name="7_pain5">5
+						<input type="radio" name="7_pain6">6
+						</br>
+						RMO NAME AND SIGN. <input type="text" name="7_rmo_name"></div>
+				<div class="col-md-6"></br></br>
+				<label> Investigation/Change in treatment/Reference</label>
+				<textarea class="form-control"  rows="10"  placeholder="" name="7_investigation" ></textarea>
+				</br>
+				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
+				</div>
+				</div>
+				<div class="row"><hr><label> 9 AM S/B- </label><hr>
+					<div class="col-md-6">
+
+					<label> c/o-</label>
+					<input type="text" class="form-control" name="c/0">
+					<label> O/E-   PULSE:</label>
+					<input type="text" class="form-control" name="9_pulse">
+
+					<label>   BP:</label>
+					<input type="text" class="form-control" name="9_bp">
+					<label> TEMP:</label>
+					<input type="text" class="form-control" name="9_temp">
+					<label> RESP/SPO2:</label>
+					<input type="text" class="form-control" name="9_resp/spo2">
+					<label> PAIN:</label>
+					<input type="radio" name="7_pain1">1
+						<input type="radio"  name="9_pain2">2
+						<input type="radio" name="9_pain3">3
+						<input type="radio" name="9_pain4">4
+						<input type="radio" name="9_pain5">5
+						<input type="radio" name="9_pain6">6</br>
+						RMO NAME AND SIGN. <input type="text" name="9_rmo_name">
+						</div>
+				<div class="col-md-6"></br></br>
+				<label> Investigation/Change in treatment/Reference</label>
+				<textarea class="form-control"  rows="10"  placeholder="" name="9_investigation" ></textarea></br>
+				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
+				</div>
+				</div>
+				<div class="row"><hr><label> 3 PM S/B- </label><hr>
+					<div class="col-md-6">
+
+					<label> c/o-</label>
+					<input type="text" class="form-control" name="c/0">
+					<label> O/E-   PULSE:</label>
+					<input type="text" class="form-control" name="3_pulse">
+
+					<label>   BP:</label>
+					<input type="text" class="form-control" name="3_bp">
+					<label> TEMP:</label>
+					<input type="text" class="form-control" name="3_temp">
+					<label> RESP/SPO2:</label>
+					<input type="text" class="form-control" name="3_resp/spo2">
+					<label> PAIN:</label>
+					<input type="radio" name="3_pain1">1
+						<input type="radio"  name="3_pain2">2
+						<input type="radio" name="3_pain3">3
+						<input type="radio" name="3_pain4">4
+						<input type="radio" name="3_pain5">5
+						<input type="radio" name="3_pain6">6
+						</br>
+						RMO NAME AND SIGN. <input type="text" name="3p_rmo_name"></div>
+				<div class="col-md-6"></br></br>
+				<label> Investigation/Change in treatment/Reference</label>
+				<textarea class="form-control"  rows="10"  placeholder="" name="3_investigation" ></textarea>
+				</br>
+				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
+				</div>
+				</div>
+				<div class="row"><hr><label> 9 PM S/B- </label><hr>
+					<div class="col-md-6">
+
+					<label> c/o-</label>
+					<input type="text" class="form-control" name="c/0">
+					<label> O/E-   PULSE:</label>
+					<input type="text" class="form-control" name="9p_pulse">
+
+					<label>   BP:</label>
+					<input type="text" class="form-control" name="9p_bp">
+					<label> TEMP:</label>
+					<input type="text" class="form-control" name="9p_temp">
+					<label> RESP/SPO2:</label>
+					<input type="text" class="form-control" name="9p_resp/spo2">
+					<label> PAIN:</label>
+					<input type="radio" name="9p_pain1">1
+						<input type="radio"  name="9p_pain2">2
+						<input type="radio" name="9p_pain3">3
+						<input type="radio" name="9p_pain4">4
+						<input type="radio" name="9p_pain5">5
+						<input type="radio" name="9p_pain6">6
+						</br>
+						RMO NAME AND SIGN. <input type="text" name="9p_rmo_name"></div>
+				<div class="col-md-6"></br></br>
+				<label> Investigation/Change in treatment/Reference</label>
+				<textarea class="form-control"  rows="10"  placeholder="" name="0p_investigation" ></textarea>
+				</br>
+				CONSULTANT NAME AND SIGN. <input type="text" name="9_consultant_name">
+				</div>
+				</div>
+				<div>
+					<button class="btn btn-success btn-bg" type="submit" form="planofcare" value="submit">Submit</button>
+					</div>
+					</html>

@@ -1,0 +1,223 @@
+<html>
+<head>
+	<title>
+		doctor's initial assessment
+	</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<div class="container">
+	<div class="page-header">
+		<div class="row">
+			<div class="col-md-6">
+			<h2>DOCTORS INITIAL ASSESSMENT</h2>
+			</div>
+			<div class="col-md-6">
+				<div class="text-right">
+					DOC NO. FMT/HIC/09 <br>
+					REV. No. 0.1 <br>
+					WEF 10-10-2015
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<form id="doctor's_initial_assessment">
+		<div class="row">
+		  <div class="col-md-10">
+			<div class="form-group">
+			 <label>History :</label>
+			 <input class="form-control" type="text" id="history" name="history" >
+			</div>
+		</div>
+		   <div class="col-md-2 text-right">
+			<textarea class="text-right" id="Addressograph"  placeholder=" Addressograph_Here" name="Addressograph" ></textarea>
+			</div>
+	</div>
+
+		<div class="row">
+		  <div class="col-md-10">
+			<div class="form-group">
+			 <label>Past row :</label>
+			 <input class="form-control" type="text" id="past_row" name="past_row">
+			</div>
+			</div>
+		</div>
+		<div class="row">
+		  <div class="col-md-10">
+			<div class="form-group">
+			 <label>Allergic History :</label>
+			 <input class="form-control" type="text" id="allergic_history" name="Allergic_History" > </textarea>
+			</div>
+		</div></div>
+		<hr>
+		<div><b>IN CASE OF ROAD ACCIDENT:</b></div></br>
+		<div class="col-md-4">
+
+				<label> Name Of The Informant: </label>
+				<input class="form-control" type="text" id="n_informant" name="n_informant" ></textarea>
+
+		</div>
+		<div class="col-md-4">
+			<label> Brought By: </label>
+			<input class="form-control" type="text" id="brought_by"  name="brought_by" ></textarea>
+		</div>
+		<div class="col-md-4">
+				<label> Place Of Accident: </label>
+				<input class="form-control" type="text" id="place_of_accident"  name="palce_of_accident" ></textarea>
+			</div> </textarea>
+		<br></br>
+		<div class="col-md-4">
+
+				<label> Time: </label>
+				<input type="time" class="form-control" id="time"  name="time" >
+
+		</div>
+		<div class="col-md-4">
+
+				<label> Date: </label>
+				<input type="date" class="form-control" id="date" name="date" >
+
+		</div>
+		<div class="col-md-4">
+
+				<label>MLC: </label>
+				<div class="row">
+				<input type="checkbox" name="mlc"  id="done_outside"> Done Outside
+
+				<input type="checkbox" name="mlc"  id="not_done_outside"> Not Done Outside
+			</div>
+		</div>
+
+
+		<div class="row">
+		<div class="col-md-12"><hr>
+		<b> History Of: </b></br>
+		</div>
+		<div class="col-md-6"></br>
+		1)	LOC :
+
+		yes <input type="checkbox" name="loc"  id="loc" >
+
+		no<input type="checkbox" name="loc"  id="loc" ></div>
+		<div class="col-md-6"></br>
+		2)  Seizures:
+		yes <input type="checkbox" name="seizures"  id="seizures" >
+
+		no<input type="checkbox" name="seizures"  id="seizures" >
+		</div>
+		<div class="col-md-6"></br>
+		3)  ENT Bleeeding:
+		yes <input type="checkbox" name="ENT_Bleeding"  id="ENT_Bleeding" >
+
+		no<input type="checkbox" name="ENT_Bleeding"  id="ENT_Bleeding" >
+		</div>
+
+		<div class="col-md-6"></br>
+		4) Vomiting:
+
+		yes <input type="checkbox" name="vomiting"  id="vomiting" >
+
+		no<input type="checkbox" name="vomiting"  id="vomiting" >
+		</div>
+		<div class="col-md-12">
+		<hr>
+		<b>Vitals</b> </div></br>
+		<div class="col-md-4">
+
+				<label> Pulse: </label>
+				<input class="form-control" type="text" id="pulse"  name="pulse" ></textarea>
+
+		</div>
+		<div class="col-md-4">
+			<label> BP: </label>
+			<input class="form-control" type="text" id="BP"  name="BP" ></textarea>
+		</div>
+		<div class="col-md-4">
+				<label> Temperature: </label>
+				<input class="form-control" type="text" id="temperature"  name="temperature" ></textarea>
+			</div> </textarea>
+
+		<div class="col-md-4">
+
+				<label> SPO2: </label>
+				<input class="form-control" type="text" id="spo2"  name="spo2" ></textarea>
+
+		</div>
+		<div class="col-md-4">
+			<label> RBS: </label>
+			<input class="form-control" type="text" id="rbs"  name="rbs" ></textarea>
+		</div>
+		<div class="col-md-4">
+				<label>Pain: </label>
+				<div class="row">
+				Yes<input type="checkbox" name="pain"  id="pain">
+
+				No<input type="checkbox" name="pain"  id="pain"> </div>
+
+		</div>
+		<div class="row">
+		<div class="col-md-12">
+		<hr>
+		<b>GCS:</b>
+		</div></div>
+		<div class="col-md-4">
+		<label> E </label>
+				<input class="form-control" type="text" id="e"  name="e" ></textarea></div>
+				<div class="col-md-4">
+				<label> M: </label>
+				<input class="form-control" type="text" id="m"  name="m" ></textarea></div>
+				<div class="col-md-4">
+				<label> V: </label>
+				<input class="form-control" type="text" id="v"  name="v" ></textarea></div>
+		</br>
+		<div class="row">
+
+		  <div class="col-md-10"><hr>
+			<div class="form-group">
+			 <label>Systematic Examination :</label>
+			 <input class="form-control" type="text" id="systematic_examination" name="systematic_examination" ></textarea>
+			</div> </textarea>
+			</div>
+
+		<div class="col-md-10">
+			<div class="form-group">
+			 <label>Any other findings or injuries :</label>
+			 <input class="form-control" type="text" id="injuries" name="injuries" ></textarea>
+			</div> </textarea>
+			</div>
+		<div class="col-md-10">
+			<div class="form-group">
+			 <label>Treated On Admission :</label>
+			 <input class="form-control" type="text" id="t_o_addmission" name="t_o_addmission" ></textarea>
+			</div> </textarea>
+			</div>
+			<div class="col-md-10">
+			<div class="form-group">
+			 <label>Shifted to :</label>
+			 <input class="form-control" type="text" id="shifted_to"  name="shifted_to" ></textarea>
+			</div> </textarea>
+			</div>
+
+		</div>
+		<div class="row">
+		<div class="col-md-4"><hr>
+			<label> name and signature</label>
+			<input class="form-control" type="text" id="name"  name="name" ></textarea></div>
+
+		<div class="col-md-4">
+		</br></br>
+			 <label>date :</label>
+		 <input type="date" id="date" ></div>
+		 <div class="col-md-4"></br></br>
+			<label> time :</label>
+			<input type="text" id="time"></div>
+</div>
+		 <div></br>
+			<button class="btn btn-success btn-bg" type="submit" form="doctors_initial_assessment" value="submit">Submit</button>
+		</div>
+
+</form>
+
+	</div>
+	</html>
